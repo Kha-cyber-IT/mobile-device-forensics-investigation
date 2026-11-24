@@ -101,7 +101,40 @@ same physical device.
 
 ## Evidence Screenshots
 
-Examination screenshots will be added separately.
+### 1. Mobile Evidence Examination — Autopsy
+
+Initial examination of the logical smartphone extraction,
+identifying application data, photographs and EXIF artefacts.
+
+![Autopsy Mobile Examination](screenshots/01_autopsy_mobile_examination.png)
+
+### 2. GPS Metadata Extraction — ExifTool
+
+Extraction of GPS coordinates and creation timestamps
+from three evidence photographs.
+
+![ExifTool GPS Analysis](screenshots/02_exiftool_gps_analysis.png)
+
+### 3. Geographic Evidence Correlation
+
+Conversion of GPS coordinates into decimal degrees for
+comparison against known burglary locations.
+
+![GPS Coordinate Correlation](screenshots/03_gps_coordinate_correlation.png)
+
+### 4. Communication Evidence — SQLite
+
+Examination of messaging records containing references
+to Oak Street before the reported burglary.
+
+![SQLite Communication Evidence](screenshots/04_sqlite_communication_evidence.png)
+
+### 5. Logically Deleted Message Analysis
+
+Read-only SQL examination identifying two message
+records flagged as deleted within the application database.
+
+![SQLite Deleted Message Analysis](screenshots/05_sqlite_deleted_message_analysis.png)
 
 ## Disclaimer
 
